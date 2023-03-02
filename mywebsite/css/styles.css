@@ -18,6 +18,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -30,6 +32,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+h1,
+h2,
+h3 {
+  margin: 20px;
 }
 
 header {

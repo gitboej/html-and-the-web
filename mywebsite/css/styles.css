@@ -53,15 +53,27 @@ section {
   padding: 10px;
 }
 
-#contact article {
+section article {
   background-color: lightgray;
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
 }
 
+a:link {
+  color: #02a471;
+}
+
+a:visited {
+  color: #0040ff;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
 img {
-  width: 100%;
+  width: 300px;
   height: auto;
   align-items: center;
   padding: 10px;

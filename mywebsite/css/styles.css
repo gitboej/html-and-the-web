@@ -1,0 +1,94 @@
+/*product-sans*/
+@import url("https://fonts.cdnfonts.com/css/product-sans");
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/roboto-v30-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v30-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v30-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/roboto-v30-latin-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  background-image: url(../assets/Nighthawks_by_Edward_Hopper_1942.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-family: "Product Sans", sans-serif;
+  color: #fff;
+  border: 20px solid #fff;
+  text-align: center;
+  font-size: 80px;
+  padding: 30px;
+  margin: 20px;
+}
+
+.picture {
+  background-color: #fff;
+  color: #252d3b;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.contact {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+.contact__card {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.biography {
+  border: 5px solid #fff;
+  color: #fff;
+}
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0040ff;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+}
